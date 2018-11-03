@@ -40,13 +40,13 @@
      <id>spring-deploy</id>
  <distributionManagement>
     <repository>
-      <id>spring-releases</id>
-      <name>spring-releases</name>
+      <id>mavenspring-releases</id>
+      <name>mavenspring-releases</name>
       <url>http://ec2-52-90-190-175.compute-1.amazonaws.com:8081/nexus/content/repositories/mavenspring-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>spring-snapshots</id>
-      <name>spring-snapshots</name>
+      <id>mavenspring-snapshots</id>
+      <name>mavenspring-snapshots</name>
       <url>http://ec2-52-90-190-175.compute-1.amazonaws.com:8081/nexus/content/repositories/mavenspring-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
