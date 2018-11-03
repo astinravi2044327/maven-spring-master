@@ -2,11 +2,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mkyong.common</groupId>
-  <artifactId>maven-spring</artifactId>
+  <artifactId>SpringExample</artifactId>
   <packaging>jar</packaging>
   <version>2.0.3-SNAPSHOT</version>
   <name>SpringExample</name>
-  <url>http://maven.apache.org</url>
+  <!--url>http://maven.apache.org</url-->
 
   <repositories>
     <repository>
@@ -28,7 +28,7 @@
       <scope>test</scope>
     </dependency>
     
-    <!-- Spring framework-- >
+    <!-- Spring framework -->
 	<dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring</artifactId>
@@ -37,7 +37,7 @@
   </dependencies>
 <profiles>
 <profile>
-     <id>maven-springdeploy</id>
+     <id>spring-deploy</id>
  <distributionManagement>
     <repository>
       <id>mavenspring-releases</id>
