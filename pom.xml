@@ -2,42 +2,18 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mkyong.common</groupId>
-  <artifactId>SpringExample</artifactId>
+  <artifactId>maven-spring</artifactId>
   <packaging>jar</packaging>
   <version>2.0.3-SNAPSHOT</version>
-  <name>SpringExample</name>
+  <name>maven-spring</name>
   <url>http://maven.apache.org</url>
-
-  <repositories>
-    <repository>
-      <id>my-repo2</id>
-      <name>public</name>
-      <url>ec2-100-24-55-115.compute-1.amazonaws.com:8081/nexus/content/groups/public/</url>
-    </repository>
-    <repository>
-      <id>my-repo1</id>
-      <name>your custom repo</name>
-      <url>http://maven.apache.org</url>
-    </repository>
- </repositories>  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
-    
-    <!-- Spring framework -->
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring</artifactId>
-		<version>2.5.6</version>
-	</dependency> 
   </dependencies>
-<profiles>
-<profile>
-     <id>spring-deploy</id>
  <distributionManagement>
     <repository>
       <id>mavenspring-releases</id>
@@ -50,7 +26,5 @@
       <url>http://ec2-100-24-55-115.compute-1.amazonaws.com:8081/nexus/content/repositories/mavenspring-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
-</profile>
-  </profiles>
 </project>
 
