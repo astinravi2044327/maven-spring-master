@@ -6,13 +6,13 @@
   <packaging>jar</packaging>
   <version>2.0.3-SNAPSHOT</version>
   <name>SpringExample</name>
-  <!--url>http://maven.apache.org</url-->
+  <url>http://maven.apache.org</url>
 
   <repositories>
     <repository>
       <id>my-repo2</id>
       <name>public</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
+      <url>ec2-100-24-55-115.compute-1.amazonaws.com:8081/nexus/content/groups/public/</url>
     </repository>
     <repository>
       <id>my-repo1</id>
@@ -42,12 +42,12 @@
     <repository>
       <id>mavenspring-releases</id>
       <name>mavenspring-releases</name>
-      <url>http://ec2-52-90-190-175.compute-1.amazonaws.com:8081/nexus/content/repositories/mavenspring-releases/</url>
+      <url>http://ec2-100-24-55-115.compute-1.amazonaws.com:8081/nexus/content/repositories/mavenspring-releases/</url>
     </repository>
     <snapshotRepository>
       <id>mavenspring-snapshots</id>
       <name>mavenspring-snapshots</name>
-      <url>http://ec2-52-90-190-175.compute-1.amazonaws.com:8081/nexus/content/repositories/mavenspring-snapshots/</url>
+      <url>http://ec2-100-24-55-115.compute-1.amazonaws.com:8081/nexus/content/repositories/mavenspring-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
